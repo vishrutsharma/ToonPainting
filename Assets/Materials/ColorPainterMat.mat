@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ColorPainterMat
+  m_Shader: {fileID: 4800000, guid: e522f20cdf89ff847bd1ac8f3ac263ad, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 2bcf851ab1fd65b40be9c77978330ce2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PaintMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Brightness: 0.107
+    - _Glossiness: 1.6
+    - _RimAmount: 0.362
+    - _SampleStrength: 0.218
+    - _Strength: 0.338
+    m_Colors:
+    - _AmbientColor: {r: 0.13980061, g: 0.9622642, b: 0.4686822, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 0, g: 0.4077053, b: 1, a: 1}
+    - _SpecularColor: {r: 0.44285095, g: 1, b: 0.0037735105, a: 1}
+  m_BuildTextureStacks: []
